@@ -30,6 +30,8 @@ matrix:
       env: PHPCS_BUILD=1
     - php: 7.1
       env: COMPOSER_FLAGS="" SYMFONY_VERSION="dev-master"
+    - php: 7.2
+    - php: 7.3
   allow_failures:
     - php: 7.1
       env: COMPOSER_FLAGS="" SYMFONY_VERSION="dev-master"
